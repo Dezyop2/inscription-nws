@@ -46,6 +46,7 @@
 .boutons {
     display: flex;
     justify-content: center;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 input[type="text"] {
@@ -58,8 +59,8 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color: var(--red);
-    box-shadow: 0 0 2px var(--red);
+    border-color: #bababa;
+    box-shadow: 0 0 2px #bababa;
 }
 
 /* BOUTON VALIDER */
