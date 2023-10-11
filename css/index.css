@@ -14,13 +14,33 @@
     margin: 46.5%;
 }
 
-/*   BUTTONS   */
+.nav2 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav2 div {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 div img {
+    width: 10%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 10px;
+}
+
+/*   BOUTONS   */
 
 .text {
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;   
     padding-top: 20px;
+    /* font-family: "Comic Sans MS", sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .boutons {
@@ -29,7 +49,7 @@
 }
 
 input[type="text"] {
-    width: 25%;
+    width: 450px;
     padding:10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -38,11 +58,38 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color: var(--blue);
-    box-shadow: 0 0 5px var(--blue);
+    border-color: var(--red);
+    box-shadow: 0 0 2px var(--red);
 }
 
+/* BOUTON VALIDER */
 
+.button-center {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid var(--blue);
+    border-radius: 3px;
+    color: white;
+    background-color: var(--blue);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #008e8e;
+}
 
 /*   FOOTER   */
 
